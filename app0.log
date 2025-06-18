@@ -1,0 +1,290 @@
+Oct 26, 2024 9:10:17 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Simulation started.
+Oct 26, 2024 9:10:17 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 1 completed.
+Oct 26, 2024 9:10:18 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownFounding
+INFO: Town founded: Stoke_Namgrove
+Oct 26, 2024 9:10:18 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownFounding
+INFO: Town founded: Upper_Puckleburgh
+Oct 26, 2024 9:10:18 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownFounding
+INFO: Town founded: Hythe_Hutholm
+Oct 26, 2024 9:10:18 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 2 completed.
+Oct 26, 2024 9:10:19 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Stoke_Namgrove and Hythe_Hutholm
+Oct 26, 2024 9:10:19 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 3 completed.
+Oct 26, 2024 9:10:20 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Stoke_Namgrove and Upper_Puckleburgh
+Oct 26, 2024 9:10:20 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 4 completed.
+Oct 26, 2024 9:10:21 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Upper_Puckleburgh and Hythe_Hutholm
+Oct 26, 2024 9:10:21 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 5 completed.
+Oct 26, 2024 9:10:22 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Upper_Puckleburgh updated population to 320
+Oct 26, 2024 9:10:22 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Upper_Puckleburgh to 320
+Oct 26, 2024 9:10:22 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 6 completed.
+Oct 26, 2024 9:10:23 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Stoke_Namgrove updated population to 824
+Oct 26, 2024 9:10:23 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Stoke_Namgrove to 824
+Oct 26, 2024 9:10:23 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 7 completed.
+Oct 26, 2024 9:10:24 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Stoke_Namgrove
+Oct 26, 2024 9:10:24 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Hythe_Hutholm
+Oct 26, 2024 9:10:24 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeSingleTrackConstruction
+INFO: Railway construction complete. Now operational as a single-track railway.
+Oct 26, 2024 9:10:24 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownFounding
+INFO: Town founded: Marsh_Petside
+Oct 26, 2024 9:10:24 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 8 completed.
+Oct 26, 2024 9:10:25 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Stoke_Namgrove
+Oct 26, 2024 9:10:25 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Upper_Puckleburgh
+Oct 26, 2024 9:10:25 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeSingleTrackConstruction
+INFO: Railway construction complete. Now operational as a single-track railway.
+Oct 26, 2024 9:10:25 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Hythe_Hutholm and Marsh_Petside
+Oct 26, 2024 9:10:25 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 9 completed.
+Oct 26, 2024 9:10:26 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Upper_Puckleburgh
+Oct 26, 2024 9:10:26 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Hythe_Hutholm
+Oct 26, 2024 9:10:26 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeSingleTrackConstruction
+INFO: Railway construction complete. Now operational as a single-track railway.
+Oct 26, 2024 9:10:26 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Upper_Puckleburgh updated population to 297
+Oct 26, 2024 9:10:26 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Upper_Puckleburgh to 297
+Oct 26, 2024 9:10:26 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 10 completed.
+Oct 26, 2024 9:10:27 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 11 completed.
+Oct 26, 2024 9:10:28 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownFounding
+INFO: Town founded: Sopholt
+Oct 26, 2024 9:10:28 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 12 completed.
+Oct 26, 2024 9:10:29 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 13 completed.
+Oct 26, 2024 9:10:30 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Hythe_Hutholm
+Oct 26, 2024 9:10:30 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Marsh_Petside
+Oct 26, 2024 9:10:30 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeSingleTrackConstruction
+INFO: Railway construction complete. Now operational as a single-track railway.
+Oct 26, 2024 9:10:30 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Marsh_Petside and Upper_Puckleburgh
+Oct 26, 2024 9:10:30 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 14 completed.
+Oct 26, 2024 9:10:31 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 15 completed.
+Oct 26, 2024 9:10:32 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Marsh_Petside and Sopholt
+Oct 26, 2024 9:10:32 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 16 completed.
+Oct 26, 2024 9:10:33 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Marsh_Petside updated population to 474
+Oct 26, 2024 9:10:33 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Marsh_Petside to 474
+Oct 26, 2024 9:10:33 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Upper_Puckleburgh updated population to 327
+Oct 26, 2024 9:10:33 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Upper_Puckleburgh to 327
+Oct 26, 2024 9:10:33 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 17 completed.
+Oct 26, 2024 9:10:34 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Hythe_Hutholm updated population to 408
+Oct 26, 2024 9:10:34 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Hythe_Hutholm to 408
+Oct 26, 2024 9:10:34 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 18 completed.
+Oct 26, 2024 9:10:35 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Marsh_Petside
+Oct 26, 2024 9:10:35 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Upper_Puckleburgh
+Oct 26, 2024 9:10:35 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeSingleTrackConstruction
+INFO: Railway construction complete. Now operational as a single-track railway.
+Oct 26, 2024 9:10:35 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Upper_Puckleburgh updated population to 324
+Oct 26, 2024 9:10:35 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Upper_Puckleburgh to 324
+Oct 26, 2024 9:10:35 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 19 completed.
+Oct 26, 2024 9:10:36 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Upper_Puckleburgh updated population to 386
+Oct 26, 2024 9:10:36 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Upper_Puckleburgh to 386
+Oct 26, 2024 9:10:36 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayDuplication
+WARNING: Attempted to duplicate a dual-track railway
+java.lang.UnsupportedOperationException: Railway not in state to duplicate: Marsh_Petside Sopholt
+	at edu.curtin.oose2024s2.assignment2.Simulator.handleRailwayDuplication(Simulator.java:184)
+	at edu.curtin.oose2024s2.assignment2.Simulator.processMessages(Simulator.java:89)
+	at edu.curtin.oose2024s2.assignment2.Simulator.run(Simulator.java:47)
+	at edu.curtin.oose2024s2.assignment2.Main.main(Main.java:15)
+
+Oct 26, 2024 9:10:36 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 20 completed.
+Oct 26, 2024 9:10:37 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Marsh_Petside
+Oct 26, 2024 9:10:37 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Sopholt
+Oct 26, 2024 9:10:37 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeSingleTrackConstruction
+INFO: Railway construction complete. Now operational as a single-track railway.
+Oct 26, 2024 9:10:37 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Marsh_Petside and Stoke_Namgrove
+Oct 26, 2024 9:10:37 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Stoke_Namgrove updated population to 888
+Oct 26, 2024 9:10:37 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Stoke_Namgrove to 888
+Oct 26, 2024 9:10:37 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Upper_Puckleburgh and Sopholt
+Oct 26, 2024 9:10:37 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Stoke_Namgrove and Sopholt
+Oct 26, 2024 9:10:37 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 21 completed.
+Oct 26, 2024 9:10:38 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Sopholt and Hythe_Hutholm
+Oct 26, 2024 9:10:38 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Stoke_Namgrove updated population to 830
+Oct 26, 2024 9:10:38 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Stoke_Namgrove to 830
+Oct 26, 2024 9:10:38 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 22 completed.
+Oct 26, 2024 9:10:39 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 23 completed.
+Oct 26, 2024 9:10:40 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 24 completed.
+Oct 26, 2024 9:10:41 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Stoke_Namgrove updated population to 981
+Oct 26, 2024 9:10:41 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Stoke_Namgrove to 981
+Oct 26, 2024 9:10:41 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Sopholt updated population to 639
+Oct 26, 2024 9:10:41 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Sopholt to 639
+Oct 26, 2024 9:10:41 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 25 completed.
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Marsh_Petside
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Stoke_Namgrove
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeSingleTrackConstruction
+INFO: Railway construction complete. Now operational as a single-track railway.
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Upper_Puckleburgh
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Sopholt
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeSingleTrackConstruction
+INFO: Railway construction complete. Now operational as a single-track railway.
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Stoke_Namgrove
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Sopholt
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeSingleTrackConstruction
+INFO: Railway construction complete. Now operational as a single-track railway.
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Upper_Puckleburgh updated population to 414
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Upper_Puckleburgh to 414
+Oct 26, 2024 9:10:42 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 26 completed.
+Oct 26, 2024 9:10:43 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Sopholt
+Oct 26, 2024 9:10:43 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Hythe_Hutholm
+Oct 26, 2024 9:10:43 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeSingleTrackConstruction
+INFO: Railway construction complete. Now operational as a single-track railway.
+Oct 26, 2024 9:10:43 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownFounding
+INFO: Town founded: Pitchsett
+Oct 26, 2024 9:10:43 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 27 completed.
+Oct 26, 2024 9:10:44 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 28 completed.
+Oct 26, 2024 9:10:45 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Pitchsett and Marsh_Petside
+Oct 26, 2024 9:10:45 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater upgradeToDualTrack
+INFO: Second railway has begun construction
+Oct 26, 2024 9:10:45 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayDuplication
+INFO: Railway duplicated between Marsh_Petside and Stoke_Namgrove
+Oct 26, 2024 9:10:45 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Sopholt updated population to 748
+Oct 26, 2024 9:10:45 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Sopholt to 748
+Oct 26, 2024 9:10:45 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 29 completed.
+Oct 26, 2024 9:10:46 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 30 completed.
+Oct 26, 2024 9:10:47 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater upgradeToDualTrack
+INFO: Second railway has begun construction
+Oct 26, 2024 9:10:47 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayDuplication
+INFO: Railway duplicated between Marsh_Petside and Upper_Puckleburgh
+Oct 26, 2024 9:10:47 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 31 completed.
+Oct 26, 2024 9:10:48 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 32 completed.
+Oct 26, 2024 9:10:49 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 33 completed.
+Oct 26, 2024 9:10:50 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Railway to Marsh_Petside upgraded to dual-track
+Oct 26, 2024 9:10:50 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Railway to Stoke_Namgrove upgraded to dual-track
+Oct 26, 2024 9:10:50 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeDualTrackConstruction
+INFO: Dual railway construction completed.
+Oct 26, 2024 9:10:50 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Pitchsett
+Oct 26, 2024 9:10:50 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: New single-track railway connected to Marsh_Petside
+Oct 26, 2024 9:10:50 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeSingleTrackConstruction
+INFO: Railway construction complete. Now operational as a single-track railway.
+Oct 26, 2024 9:10:50 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 34 completed.
+Oct 26, 2024 9:10:51 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 35 completed.
+Oct 26, 2024 9:10:52 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Railway to Marsh_Petside upgraded to dual-track
+Oct 26, 2024 9:10:52 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Railway to Upper_Puckleburgh upgraded to dual-track
+Oct 26, 2024 9:10:52 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater completeDualTrackConstruction
+INFO: Dual railway construction completed.
+Oct 26, 2024 9:10:52 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Hythe_Hutholm updated population to 407
+Oct 26, 2024 9:10:52 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Hythe_Hutholm to 407
+Oct 26, 2024 9:10:52 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Pitchsett and Upper_Puckleburgh
+Oct 26, 2024 9:10:52 AM edu.curtin.oose2024s2.assignment2.towns.RailwayUpdater upgradeToDualTrack
+INFO: Second railway has begun construction
+Oct 26, 2024 9:10:52 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayDuplication
+INFO: Railway duplicated between Upper_Puckleburgh and Sopholt
+Oct 26, 2024 9:10:52 AM edu.curtin.oose2024s2.assignment2.Simulator handleRailwayConstruction
+INFO: Railway constructed between Pitchsett and Sopholt
+Oct 26, 2024 9:10:52 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 36 completed.
+Oct 26, 2024 9:10:53 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Stoke_Namgrove updated population to 971
+Oct 26, 2024 9:10:53 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Stoke_Namgrove to 971
+Oct 26, 2024 9:10:53 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 37 completed.
+Oct 26, 2024 9:10:54 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Upper_Puckleburgh updated population to 486
+Oct 26, 2024 9:10:54 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Upper_Puckleburgh to 486
+Oct 26, 2024 9:10:54 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 38 completed.
+Oct 26, 2024 9:10:55 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 39 completed.
+Oct 26, 2024 9:10:56 AM edu.curtin.oose2024s2.assignment2.towns.Town update
+INFO: Pitchsett updated population to 625
+Oct 26, 2024 9:10:56 AM edu.curtin.oose2024s2.assignment2.Simulator handleTownPopulation
+FINER: Population updated for Pitchsett to 625
+Oct 26, 2024 9:10:56 AM edu.curtin.oose2024s2.assignment2.Simulator run
+INFO: Day 40 completed.

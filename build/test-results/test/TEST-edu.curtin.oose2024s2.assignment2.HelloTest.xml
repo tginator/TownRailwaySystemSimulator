@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.curtin.oose2024s2.assignment2.HelloTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-26T00:54:09" hostname="tylers-MacBook-Pro-2.local" time="0.009">
+  <properties/>
+  <testcase name="testHello()" classname="edu.curtin.oose2024s2.assignment2.HelloTest" time="0.009"/>
+  <system-out><![CDATA[hi
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

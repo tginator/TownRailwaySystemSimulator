@@ -1,0 +1,9 @@
+1. Simulation for some reason doesn't generate towns on first day. 
+2. Progression of commands:
+    - Goods accumulated from previous day population
+    - Goods are transported after railways have progressed
+    - Input commands are then processed
+        - If a new town is founded, their initial stockpile is generated on the day they are created 
+
+3. Railways can begin transportation on the day their construction is completed. So if a single railway was completed on day 5, 100 goods can be transported that same day. 
+

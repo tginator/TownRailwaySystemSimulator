@@ -1,0 +1,174 @@
+@startuml
+
+interface Observable {
+    + registerObserver(Observer observer)
+    + notifyObservers(String event, String details)
+}
+
+note right of Observable
+    // void removeObserver(Observer observer);
+end note
+
+interface Observer {
+    + update(String event, String details)
+}
+
+class Main {
+    + main(String[] args)
+}
+
+class Simulator {
+    - TownNetwork townNetwork
+    - TownsInput input
+    - int day
+    - Build<Railway> railways
+    + run()
+}
+
+class TownNetwork {
+    - Build<Town> towns
+    - Build<Town> observers
+    + createTown(String name, int population)
+    + progressDay()
+    + notifyObservers(String event, String details)
+}
+
+class Town {
+    - String name
+    - int population
+    - int stockpile
+    - int singleTracks
+    - int dualTracks
+    + update(String event, String details)
+    + printStatus()
+    + progressDay()
+}
+
+class Railway {
+    - Town townA
+    - Town townB
+    - RailwayState state
+    - Build<Observer> observers
+    + progressDay()
+    + updateState(RailwayState newState)
+    + notifyObservers(String event, String details)
+}
+
+class "Build<T>" {
+    - List<T> builds
+    + add(T build)
+    + getList(): List<T>
+}
+
+interface RailwayState {
+    + transportGoods(Town a, Town b)
+    + progressConstruction(Railway r, RailwayUpdater u)
+    + getType(): Status
+}
+
+class SingleRailway {
+    - boolean direction
+    - Status status
+    + transportGoods(Town a, Town b)
+    + progressConstruction(Railway r, RailwayUpdater u)
+    + getType(): Status
+}
+
+class DualRailway {
+    - Status status
+    + transportGoods(Town a, Town b)
+    + progressConstruction(Railway r, RailwayUpdater u)
+    + getType(): Status
+}
+
+class ConstructingRailway {
+    - int daysRemaining
+    - Status status
+    + transportGoods(Town townA, Town townB)
+    + progressConstruction(Railway r, RailwayUpdater u)
+    + getType(): Status
+}
+
+class ConstructingDual {
+    - int daysRemaining
+    - Status status
+    - boolean direction
+    + transportGoods(Town townA, Town townB)
+    + progressConstruction(Railway r, RailwayUpdater u)
+    + getType(): Status
+}
+
+enum Status {
+    SINGLE_CONSTRUCTION
+    SINGLE
+    DUAL_CONSTRUCTION
+    DUAL
+}
+
+abstract class RailwayFactory {
+    + createRailway(): RailwayState
+}
+
+class CreateSingleRail {
+    + createRailway(): RailwayState
+}
+
+class CreateDualRail {
+    + createRailway(): RailwayState
+}
+
+class CreateConSingle {
+    + createRailway(): RailwayState
+}
+
+class CreateConDual {
+    + createRailway(): RailwayState
+}
+
+class RailwayUpdater {
+    - RailwayFactory factory
+    + completeSingleTrackConstruction(Railway r)
+    + upgradeToDualTrack(Railway r)
+    + completeDualTrackConstruction(Railway r)
+}
+
+class FileOutput {
+    + writeDotFile(String filename, List<Town> towns, List<Railway> railways)
+}
+
+Main --> Simulator : uses
+Simulator --> TownNetwork : uses
+Simulator --> "Build<Railway>" : railways
+Simulator --> FileOutput : uses
+TownNetwork --> "Build<Town>" : towns
+TownNetwork --> "Build<Town>" : observers
+TownNetwork --> Town : creates
+Railway o-- Town : connects to
+Railway --> RailwayState : has
+Railway --> "Build<Observer>" : observers
+RailwayUpdater --> RailwayFactory : factory
+RailwayUpdater --> Railway : uses
+RailwayUpdater --> RailwayState : uses
+RailwayState --> Status : uses
+SingleRailway --> Status : has
+DualRailway --> Status : has
+ConstructingRailway --> Status : has
+ConstructingDual --> Status : has
+CreateSingleRail ..> SingleRailway : creates
+CreateDualRail ..> DualRailway : creates
+CreateConSingle ..> ConstructingRailway : creates
+CreateConDual ..> ConstructingDual : creates
+
+TownNetwork -|> Observable
+Town -|> Observer
+Railway -|> Observable
+SingleRailway -|> RailwayState
+DualRailway -|> RailwayState
+ConstructingRailway -|> RailwayState
+ConstructingDual -|> RailwayState
+CreateSingleRail -|> RailwayFactory
+CreateDualRail -|> RailwayFactory
+CreateConSingle -|> RailwayFactory
+CreateConDual -|> RailwayFactory
+
+@enduml
