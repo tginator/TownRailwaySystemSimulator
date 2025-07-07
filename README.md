@@ -1,57 +1,28 @@
-Base Java Project
+Town Railway System Development Simulator
 =================
 
-This is a [Gradle][]-based Java project structure. Provided you have the [OpenJDK][] installed, the `gradlew` script will take care of all other dependencies.
+This project simulates a network of towns exchanging goods via dynamically constructed railways. It was developed for the Object-Oriented Software Engineering unit at Curtin University and demonstrates the use of core OOP principles, design patterns, and system modeling. 
 
-[Java]: https://docs.oracle.com/javase/tutorial/
-[Gradle]: https://gradle.org/
-[OpenJDK]: https://adoptium.net/temurin/releases/
+## Features
+- Dynamically created railway networks between towns
+- Real-time state updates and status changes
+- File-based input/output for town and goods configuration
+- UML State and Class diagrams included
+- Use of key design patterns: **Observer**, **State**, **Factory**, **Dependency Injection**
+- Multithreading for concurrent good transfers
 
-Put your source code in `src/main/java` (or in further subdirectories inside that, according to package). To change the name or package of the main class, make sure to update the `mainClass` line in the configuration file `build.gradle`.
+## Technologies Used
+- Java (JDK 8)
+- Gradle build system
+- PMD for linting
+- JUnit for testing
+- GraphViz for diagram visualization
+- Command-line execution for simulation control
 
+## How to Run
+Ensure you have Java installed. From the project root directory:
 
-## Running
-
-To run your code (for debugging purposes), invoke the `gradlew` script with a `run` argument:
-
-```
+```bash
 ./gradlew run
-```
-
-If you need to provide command-line arguments:
-
-```
-./gradlew run --args="arg1 arg2 arg3"
-```
-
-If you run into permission problems:
-
-```
-bash gradlew run
-```
 
 
-## Linting and Testing
-
-This project has been configured to use [PMD][] to check code quality, and (though you don't need it for OOSE) [JUnit 5][] to perform unit testing. To perform these steps:
-
-[PMD]: https://docs.pmd-code.org/latest/
-[JUnit 5]: https://junit.org/junit5/
-
-```
-./gradlew check
-```
-
-(Alternatively, run "`./gradlew build`".)
-
-Look up and fix any of the [PMD warnings](), or [suppress][] them if/where appropriate.
-
-[PMD warnings]: https://docs.pmd-code.org/latest/pmd_rules_java.html
-[suppress]: https://docs.pmd-code.org/latest/pmd_userdocs_suppressing_warnings.html
-
-
-## Logging
-
-This project configures logging ([java.util.logging][]) so that you don't need to. Simply obtain logger objects with `Logger.getLogger()`, and insert logging statements where appropriate.
-
-[java.util.logging]: https://docs.oracle.com/en/java/javase/21/core/java-logging-overview.html
