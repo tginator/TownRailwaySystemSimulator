@@ -20,7 +20,7 @@ This project simulates a network of towns exchanging goods via dynamically const
 - Command-line execution for simulation control
 
 ## How to Run
-Ensure you have Java installed. From the project root directory:
+Ensure you have Java and gradle installed. From the project root directory:
 
 ```bash
 ./gradlew run
