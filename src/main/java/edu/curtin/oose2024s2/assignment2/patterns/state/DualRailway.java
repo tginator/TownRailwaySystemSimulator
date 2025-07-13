@@ -11,9 +11,11 @@ public class DualRailway implements RailwayState {
     public void transportGoods(Town townA, Town townB) {
         if (townA.getStockpile() > 99) {
             townA.decreaseStockpile();
+            townB.increaseStockpile(100);
         }
         if (townB.getStockpile() > 99) {
             townB.decreaseStockpile();
+            townA.increaseStockpile(100);
         }
     }
 

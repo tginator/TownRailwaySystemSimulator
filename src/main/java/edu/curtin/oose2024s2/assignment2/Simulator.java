@@ -45,6 +45,10 @@ public class Simulator {
                 townNetwork.progressDay(); // Goods are accumulated at the start of day.
                 progressRailways(); // Progress railways then transport goods
                 processMessages(); // Process all input messages like population change, new town (goods generated on same day), railway creations
+                
+                // Ensure at least 2 towns exist for railway construction
+                ensureMinimumTowns();
+                
                 System.out.println(" ");
                 townNetwork.printAllTowns(); // Print status of all towns
 
@@ -204,6 +208,35 @@ public class Simulator {
     }
 
 
+
+    private void ensureMinimumTowns() {
+        // Ensure at least 2 towns exist for railway construction
+        if (townNetwork.getAllTowns().size() < 2) {
+            // Force generation of towns by calling nextMessage until we have at least 2
+            while (townNetwork.getAllTowns().size() < 2) {
+                String message = input.nextMessage();
+                if (message != null) {
+                    String[] parts = message.split(" ");
+                    try {
+                        if ("town-founding".equals(parts[0])) {
+                            handleTownFounding(parts);
+                        }
+                    } catch (ArrayIndexOutOfBoundsException | NumberFormatException e) {
+                        // Ignore invalid messages, just continue trying
+                        log.fine(() -> "Ignoring invalid message during town generation: " + e.getMessage());
+                    }
+                } else {
+                    // If no message available, create a default town
+                    if (townNetwork.getAllTowns().size() == 0) {
+                        townNetwork.createTown("DefaultTown1", 500);
+                    } else if (townNetwork.getAllTowns().size() == 1) {
+                        townNetwork.createTown("DefaultTown2", 500);
+                    }
+                    break;
+                }
+            }
+        }
+    }
 
     private void simulateOneDay() {
         try {

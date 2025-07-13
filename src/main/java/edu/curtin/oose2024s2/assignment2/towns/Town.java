@@ -71,6 +71,10 @@ public class Town implements Observer {
         this.transported = this.transported + 100;
     }
 
+    public void increaseStockpile(int amount) {
+        this.stockpile += amount;
+    }
+
     public void resetTransported() {
         transported = 0;
     }

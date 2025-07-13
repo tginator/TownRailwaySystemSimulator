@@ -1,22 +1,11 @@
 graph Towns {
-    Stoke_Namgrove
-    Upper_Puckleburgh
-    Hythe_Hutholm
-    Marsh_Petside
-    Sopholt
-    Pitchsett
+    DefaultTown1
+    Narrow_Knockwick
+    West_Farforth
+    North_Pimcarden
+    Abbots_Basilmouth
+    Down_Deckcester
 
-    Stoke_Namgrove -- Hythe_Hutholm
-    Stoke_Namgrove -- Upper_Puckleburgh
-    Upper_Puckleburgh -- Hythe_Hutholm
-    Hythe_Hutholm -- Marsh_Petside
-    Marsh_Petside -- Upper_Puckleburgh [color="black:black"]
-    Marsh_Petside -- Sopholt
-    Marsh_Petside -- Stoke_Namgrove [color="black:black"]
-    Upper_Puckleburgh -- Sopholt [style="dashed",color="black:black"]
-    Stoke_Namgrove -- Sopholt
-    Sopholt -- Hythe_Hutholm
-    Pitchsett -- Marsh_Petside
-    Pitchsett -- Upper_Puckleburgh [style="dashed"]
-    Pitchsett -- Sopholt [style="dashed"]
+    Narrow_Knockwick -- West_Farforth
+    West_Farforth -- Down_Deckcester [style="dashed"]
 }

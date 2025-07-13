@@ -20,14 +20,14 @@ public class ConstructingDual implements RailwayState {
             if (townA.getStockpile() > 99) {
                 // Transport from TownA to TownB.
                 townA.decreaseStockpile();
-
+                townB.increaseStockpile(100);
             }
         } else {
 
             if (townB.getStockpile() > 99) {
                 // Transport from TownB to TownA.
                 townB.decreaseStockpile();
-
+                townA.increaseStockpile(100);
             }
         }
         // Alternate the direction for the next day.
