@@ -21,12 +21,17 @@ This project simulates a dynamic network of towns exchanging goods via railways,
 
 ## Technologies Used
 
+<<<<<<< HEAD
 - Java (JDK 8+)
 - Gradle (build & run)
 - PMD (static analysis)
 - JUnit (testing)
 - GraphViz (network visualization)
 - Command-line interface
+=======
+## How to Run
+Ensure you have Java and gradle installed. From the project root directory:
+>>>>>>> f8639e62f286a94c2d61a082b01d949b74e6efa4
 
 ---
 
